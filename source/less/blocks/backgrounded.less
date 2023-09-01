@@ -1,0 +1,88 @@
+.rosa-backgrounded {
+    background-image: url('../img/backgrounded-mobile.png');
+    background-size: cover;
+
+    @media (@L) {
+        display: flex;
+        background-position: center;
+        flex-direction: row-reverse;
+        background-image: url('../img/backgrounded.png');
+    }
+}
+
+.rosa-backgrounded-inner {
+    width: calc(100% - 64px);
+    margin: 0 auto;
+    padding: 91px 0 158px;
+
+    @media (@L) {
+        margin: 0;
+        width: 50%;
+        padding: 140px 0 80px;
+    }
+}
+
+.rosa-backgrounded-title {
+    text-align: left;
+    font: normal normal normal 35px/45px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    max-width: 543px;
+
+    margin-bottom: 30px;
+
+    @media (@L) {
+        font: normal normal normal 40px/45px Cormorant;
+        margin-bottom: 23px;
+    }
+}
+
+.rosa-backgrounded-text {
+    max-width: 543px;
+    text-align: left;
+    font: normal normal normal 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+
+    margin-bottom: 30px;
+}
+
+.rosa-backgrounded-list {
+    padding-left: 37px;
+    list-style-type: none;
+    margin-bottom: 55px;
+}
+
+.rosa-backgrounded-list-item {
+    position: relative;
+    text-align: left;
+    font: normal normal 500 14px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    margin-bottom: 12px;
+}
+
+.rosa-backgrounded-list-item:before {
+    position: absolute;
+    left: -40px;
+    display: block;
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.263' height='17.263' viewBox='0 0 17.263 17.263'%3E%3Cpath id='Tracé_230' data-name='Tracé 230' d='M170.144,176.783a.156.156,0,0,1,0,.312,7.825,7.825,0,0,0-7.822,7.822.154.154,0,1,1-.309,0,7.825,7.825,0,0,0-7.822-7.822.156.156,0,0,1,0-.312,7.822,7.822,0,0,0,7.822-7.82.154.154,0,0,1,.309,0A7.822,7.822,0,0,0,170.144,176.783Z' transform='translate(-153.536 -168.309)' fill='none' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E%0A");
+}
+
+.rosa-backgrounded-link {
+    display: block;
+    width: fit-content;
+    font: normal normal 500 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+}

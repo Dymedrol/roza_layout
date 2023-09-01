@@ -1,0 +1,253 @@
+.rosa-pdp {
+    padding-top: 138px;
+}
+
+.rosa-pdp-return {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 14px;
+
+    & svg {
+        transform: rotate(90deg);
+    }
+
+    & span {
+        font: normal normal normal 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+}
+
+.rosa-pdp-content {
+    display: flex;
+    flex-direction: column;
+
+    @media (@L) {
+        flex-direction: row;
+    }
+}
+
+.rosa-pdp-col {
+
+    @media (@L) {
+        width: 50%;
+    }
+}
+
+.rosa-pdp-pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 20px;
+
+    @media (@L) {
+        padding-top: 14px;
+        gap: 13px;
+    }
+}
+
+.rosa-pdp-pics-pic {
+    display: block;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+
+    @media (@L) {
+        width: calc(50% - 7px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+.rosa-pdp-pics-pic:first-child {
+    width: 100%;
+    height: auto;
+}
+
+.rosa-pdp-pics-pic:nth-child(4n) {
+
+    @media (@L) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.rosa-pdp-info {
+    @media (@L) {
+        width: 408px;
+        padding-left: 32px;
+    }
+}
+
+.rosa-pdp-info-title {
+    text-align: left;
+    font: normal normal normal 38px/43px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+
+    @media (@L) {
+        font: normal normal normal 38px/35px Cormorant;
+        margin-bottom: 12px;
+    }
+}
+
+.rosa-pdp-info-text {
+    text-align: left;
+    font: normal normal normal 14px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #555555;
+    margin-bottom: 26px;
+
+    @media (@L) {
+        margin-bottom: 44px;
+    }
+}
+
+.rosa-pdp-info-price {
+    font: normal normal normal 20px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+
+    @media (@L) {
+        margin-bottom: 44px;
+    }
+}
+
+.rosa-pdp-info-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 30px;
+
+    @media (@L) {
+        flex-direction: row;
+        gap: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+.rosa-pdp-info-controls-item {
+    position: relative;
+    width: 100%;
+    font: normal normal medium 11px/9px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+
+    @media (@L) {
+
+    }
+
+    & svg {
+        right: 10px;
+        top: 6px;
+        position: absolute;
+    }
+}
+
+.rosa-pdp-info-links {
+    margin-bottom: 61px;
+
+    @media (@L) {
+        margin-bottom: 78px;
+    }
+}
+
+.rosa-pdp-info-links-link {
+    text-decoration: underline;
+    font: normal normal 500 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.rosa-pdp-info-button {
+    width: 100%;
+    height: 44px;
+    background: #000;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: 0;
+    margin-bottom: 30px;
+
+    @media (@L) {
+        margin-bottom: 43px;
+    }
+
+}
+
+.rosa-pdp-info-rendez-vous {
+    display: block;
+    width: fit-content;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 auto 27px;
+    border-bottom: 1px solid #000;
+
+    @media (@L) {
+        margin: 0 auto 32px;
+    }
+}
+
+.rosa-pdp-info-text2 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 17px;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #3D3D3D;
+    margin: 0 auto 48px;
+
+    & svg {
+        cursor: pointer;
+    }
+}
+
+.rosa-pdp-info-bar {
+    width: 100%;
+    height: 1px;
+    opacity: 0.46;
+    background: #000000;
+    margin-bottom: 45px;
+}
+
+.rosa-pdp-info-description-title {
+    font: normal normal 500 16px/11px Montserrat;
+    color: #000000;
+    text-transform: uppercase;
+
+    margin-bottom: 21px;
+}
+
+.rosa-pdp-info-description-subtitle {
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+
+    margin-bottom: 21px;
+}
+
+.rosa-pdp-info-description-text {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    margin-bottom: 21px;
+}
+
+.rosa-pdp-info-bar2 {
+    width: 100%;
+    height: 1px;
+    opacity: 0.46;
+    background: #000000;
+    margin-top: 45px;
+}

@@ -1,0 +1,112 @@
+.rosa-picture-slider2 {
+    padding-top: 62px;
+    padding-bottom: 40px;
+
+    @media (@L) {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+}
+
+.rosa-picture-slider2-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+
+    @media (@L) {
+        margin-bottom: 12px;
+        align-items: flex-end;
+    }
+}
+
+.rosa-picture-slider2-header-title {
+    font: normal normal normal 35px/45px Cormorant;
+    color: #000000;
+    text-transform: uppercase;
+
+    @media (@L) {
+        font: normal normal normal 40px/45px Cormorant;
+    }
+}
+
+.rosa-picture-slider2-inner {
+    display: flex;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    gap: 17px;
+
+    @media (@L) {
+
+    }
+}
+
+.rosa-picture-slider2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 318px;
+    height: 615px;
+    flex-shrink: 0;
+    padding: 0 16px 38px;
+
+    @media (@L) {
+        width: 23.5vw;
+        aspect-ratio: 318 / 615;
+    }
+}
+
+.rosa-picture-slider2-item-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.rosa-picture-slider2-item-title {
+    text-align: center;
+    font: normal normal 500 20px/25px Montserrat;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.rosa-picture-slider2-item-link {
+    font: normal normal 500 12px/15px Montserrat;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #fff;
+}
+
+.rosa-picture-slider2-nav-top {
+    display: none;
+
+    @media (@L) {
+        display: flex;
+        width: 82px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}
+
+.rosa-picture-slider2-nav-bottom {
+    display: flex;
+    width: 82px;
+    justify-content: space-between;
+    margin: 58px auto 0;
+
+    @media (@L) {
+        display: none;
+    }
+
+}
+
+.rosa-picture-slider2-nav-arrow {
+    cursor: pointer;
+}

@@ -1,0 +1,145 @@
+.rosa-double {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media (@L) {
+        flex-direction: row;
+        margin-top: 195px;
+        margin-bottom: 72px;
+        min-height: 668px;
+    }
+}
+
+.rosa-double.reverse {
+
+    @media (@L) {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.rosa-double-pic {
+    background-image: url('../img/double-pic.png');
+    width: 100%;
+    aspect-ratio: 430 / 373;
+    background-size: cover;
+
+    @media (@L) {
+        width: 50%;
+        aspect-ratio: unset;
+    }
+}
+
+.rosa-double-info {
+    width: 100%;
+
+    @media (@L) {
+        width: 50%;
+    }
+}
+
+.rosa-double-info-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 348px;
+
+    padding-top: 36px;
+    padding-bottom: 78px;
+
+    margin: 0 auto;
+
+    @media (@L) {
+        max-width: 400px;
+        padding-top: 28px;
+        padding-bottom: 123px;
+    }
+}
+
+.rosa-double-info-text1 {
+    width: 100%;
+    text-align: left;
+    font: normal normal 500 16px/35px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    @media (@L) {
+        font: normal normal 500 16px/45px Montserrat;
+    }
+}
+
+.rosa-double-info-text2 {
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 35px/35px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+
+    @media (@L) {
+        font: normal normal normal 40px/45px Cormorant;
+        margin-bottom: 25px;
+    }
+}
+
+.rosa-double-info-text3 {
+    max-width: 338px;
+    text-align: left;
+    font: normal normal normal 15px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+
+    margin-bottom: 36px;
+}
+
+.rosa-double-info-text3.medium {
+    max-width: 338px;
+    text-align: left;
+    font: normal normal 500 15px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+
+    margin-bottom: 36px;
+}
+
+.rosa-double-info-list {
+    width: 100%;
+    margin-bottom: 57px;
+}
+
+.rosa-double-info-list-item {
+    display: flex;
+    gap: 30px;
+
+    margin-bottom: 27px;
+}
+
+.rosa-double-info-list-item-pic {
+    width: 20px;
+    height: auto;
+}
+
+.rosa-double-info-list-item-link {
+    display: block;
+    text-align: left;
+    font: normal normal 500 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #000;
+}
+
+.rosa-double-info-link {
+    display: block;
+    text-align: left;
+    font: normal normal 500 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #000;
+}

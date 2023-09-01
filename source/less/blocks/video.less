@@ -1,0 +1,22 @@
+.rosa-video {
+    position: relative;
+    aspect-ratio: 367 / 512;
+    background-image: url('../img/video.png');
+    background-size: cover;
+    background-position: center;
+
+    @media (@L) {
+        aspect-ratio: 1086 / 512;
+    }
+
+    & svg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+        cursor: pointer;
+    }
+}

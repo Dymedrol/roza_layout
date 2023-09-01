@@ -1,0 +1,184 @@
+.rosa-cart {
+    padding-top: 277px;
+    padding-bottom: 178px;
+}
+
+.rosa-cart-title {
+    width: fit-content;
+    margin: 0 auto 102px;
+    font: normal normal normal 40px/45px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-cart-content {
+    width: 100%
+}
+
+.rosa-cart-legend {
+    display: flex;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #000;
+}
+
+.rosa-cart-col1 {
+    flex-grow: 1;
+}
+
+.rosa-cart-col2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @media (@L) {
+        width: 20%;
+    }
+}
+
+.rosa-cart-col3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    @media (@L) {
+        width: 20%;
+    }
+}
+
+.rosa-cart-legend-title {
+    font: normal normal medium 16px/45px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-cart-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #000;
+    gap: 20px;
+
+    @media (@L) {
+        gap: unset;
+        flex-direction: row;
+    }
+}
+
+.rosa-cart-item-product {
+    display: flex;
+    gap: 31px;
+}
+
+.rosa-cart-item-product-pic {
+    width: 152px;
+    height: 152px;
+    border: 1px solid #EAEAEA;
+}
+
+.rosa-cart-item-info {
+    max-width: 282px;
+}
+
+.rosa-cart-item-info-title {
+    font: normal normal normal 18px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.rosa-cart-item-info-description {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    margin-bottom: 34px;
+}
+
+.rosa-cart-item-info-price {
+    display: none;
+    font: normal normal normal 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    @media (@L) {
+        display: block;
+    }
+}
+
+.rosa-cart-item-count-control-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.rosa-cart-item-count-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 135px;
+    height: 48px;
+    border: 1px solid #000000;
+
+
+    & span {
+        font: normal normal normal 15px/19px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+}
+
+.rosa-cart-item-count-control-button {
+    cursor: pointer;
+}
+
+.rosa-cart-item-price {
+    font: normal normal 600 18px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-cart-bottom {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.rosa-cart-bottom-total-wrapper {
+    display: flex;
+    gap: 52px;
+    margin-bottom: 47px;
+}
+
+.rosa-cart-bottom-total-text {
+    font: normal normal normal 18px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-cart-bottom-total-price {
+    font: normal normal 600 18px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-cart-bottom-button {
+    width: fit-content;
+    border: 0;
+    background: transparent;
+    font: normal normal 500 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}

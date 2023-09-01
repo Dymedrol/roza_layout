@@ -1,0 +1,68 @@
+.rosa-jumbotron {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/jumbo-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (@L) {
+        background-image: url('../img/jumbo.png');
+    }
+}
+
+.rosa-jumbotron-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.rosa-jumbotron-content {
+
+}
+
+.rosa-jumbotron-title {
+    text-align: left;
+    font: normal normal normal 35px/40px Cormorant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+
+    max-width: 268px;
+    margin-bottom: 23px;
+
+    @media (@L) {
+        text-align: left;
+        font: normal normal normal 40px/40px Cormorant;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+
+        max-width: 561px;
+        margin-bottom: 7px;
+    }
+}
+
+.rosa-jumbotron-text {
+    text-align: left;
+    font: normal normal 300 15px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    max-width: 322px;
+    margin-bottom: 32px;
+}
+
+.rosa-jumbotron-link {
+    text-align: left;
+    font: normal normal 400 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}

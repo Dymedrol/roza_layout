@@ -1,0 +1,38 @@
+{
+  "name": "special-items",
+  "version": "1.0.0",
+  "description": "special-items",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack --mode development --watch --progress"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^3.0.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
